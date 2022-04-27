@@ -1,11 +1,18 @@
 image: gitpod/workspace-full-vnc
 
 tasks:
-  - command: docker
+  - command: docker info
 
 vscode:
   extensions:
     - ms-azuretools.vscode-docker
+    - ms-vscode.vscode-node-azure-pack
+    - bungcip.better-toml
+    - zamerick.vscode-caddyfile-syntax
+    - EditorConfig.EditorConfig
+    - GitHub.vscode-pull-request-github
+    - GitHub.github-vscode-theme
+    - bierner.github-markdown-preview
 
 github:
   prebuilds:
