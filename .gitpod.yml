@@ -19,6 +19,8 @@ vscode:
     - GitLab.gitlab-workflow
     - bierner.markdown-preview-github-styles
     - PKief.material-icon-theme
+    - ms-python.python
+    - rebornix.ruby
 
 github:
   prebuilds:
