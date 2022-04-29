@@ -13,6 +13,12 @@ vscode:
     - GitHub.vscode-pull-request-github
     - GitHub.github-vscode-theme
     - bierner.github-markdown-preview
+    - Gruntfuggly.todo-tree
+    - WakaTime.vscode-wakatime
+    - timonwong.shellcheck
+    - GitLab.gitlab-workflow
+    - bierner.markdown-preview-github-styles
+    - PKief.material-icon-theme
 
 github:
   prebuilds:
