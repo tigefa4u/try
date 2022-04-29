@@ -30,3 +30,4 @@ github:
     pullRequestsFromForks: true
     addCheck: true
     addComment: true
+    addBadge: true
