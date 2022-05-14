@@ -13,14 +13,25 @@ vscode:
     - GitHub.vscode-pull-request-github
     - GitHub.github-vscode-theme
     - bierner.github-markdown-preview
+    - bierner.markdown-checkbox
+    - bierner.markdown-emoji
+    - bierner.markdown-footnotes
+    - bierner.markdown-mermaid
+    - bierner.markdown-preview-github-styles
+    - bierner.markdown-yaml-preamble
     - Gruntfuggly.todo-tree
     - WakaTime.vscode-wakatime
     - timonwong.shellcheck
     - GitLab.gitlab-workflow
-    - bierner.markdown-preview-github-styles
     - PKief.material-icon-theme
     - ms-python.python
     - rebornix.ruby
+    - golang.go
+    - silvenon.mdx
+    - william-voyek.vscode-nginx
+    - abumalick.vscode-nvm
+    - amazonwebservices.aws-toolkit-vscode
+    - arcticicestudio.nord-visual-studio-code
 
 github:
   prebuilds:
