@@ -1,4 +1,4 @@
-image: gitpod/workspace-full-vnc:2022-05-25-08-50-33
+image: gitpod/workspace-full-vnc:2022-06-09-10-15-25
 
 tasks:
   - command: |
@@ -22,7 +22,6 @@ vscode:
     - bierner.markdown-mermaid
     - bierner.markdown-preview-github-styles
     - bierner.markdown-yaml-preamble
-    - Gruntfuggly.todo-tree
     - WakaTime.vscode-wakatime
     - timonwong.shellcheck
     - GitLab.gitlab-workflow
