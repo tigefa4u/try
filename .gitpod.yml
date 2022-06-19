@@ -1,4 +1,4 @@
-image: gitpod/workspace-full-vnc:2022-06-09-20-58-43
+image: gitpod/workspace-full-vnc:2022-06-17-15-14-36
 
 tasks:
   - command: |
@@ -8,8 +8,6 @@ tasks:
 
 vscode:
   extensions:
-    - ms-azuretools.vscode-docker
-    - ms-vscode.vscode-node-azure-pack
     - bungcip.better-toml
     - zamerick.vscode-caddyfile-syntax
     - EditorConfig.EditorConfig
@@ -25,7 +23,10 @@ vscode:
     - WakaTime.vscode-wakatime
     - timonwong.shellcheck
     - GitLab.gitlab-workflow
+    - PKief.markdown-checkbox
     - PKief.material-icon-theme
+    - PKief.material-product-icons
+    - Equinusocio.vsc-community-material-theme
     - ms-python.python
     - rebornix.ruby
     - golang.go
@@ -33,7 +34,15 @@ vscode:
     - william-voyek.vscode-nginx
     - abumalick.vscode-nvm
     - amazonwebservices.aws-toolkit-vscode
+    - googlecloudtools.cloudcode
     - arcticicestudio.nord-visual-studio-code
+    - stateful.stable
+    - rangav.vscode-thunder-client
+    - ms-vscode-remote.vscode-remote-extensionpack
+    - ms-kubernetes-tools.vscode-kubernetes-tools
+    - ms-azuretools.vscode-docker
+    - mikestead.dotenv
+    - Jannchie.codetime
 
 github:
   prebuilds:
