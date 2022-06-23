@@ -1,4 +1,4 @@
-image: gitpod/workspace-full-vnc:2022-06-17-15-14-36
+image: gitpod/workspace-full-vnc:latest
 
 tasks:
   - command: |
