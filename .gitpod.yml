@@ -5,6 +5,10 @@ tasks:
       nvm install lts/fermium
       npm install -g npm
       npm install -g @cloudflare/wrangler
+      curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | sudo -E bash -s install deb-get
+      deb-get update
+      deb-get upgrade
+      deb-get install google-chrome-stable discord system-monitoring-center
 
 vscode:
   extensions:
