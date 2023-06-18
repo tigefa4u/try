@@ -2,20 +2,19 @@ image: gitpod/workspace-full-vnc:latest
 
 tasks:
   - command: |
-      nvm install lts/*
+      nvm install lts/gallium
       npm install -g npm
       npm install -g @cloudflare/wrangler
       curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | sudo -E bash -s install deb-get
       deb-get update
       deb-get upgrade
-      deb-get install google-chrome-stable discord system-monitoring-center
+      deb-get install google-chrome-stable discord
 
 vscode:
   extensions:
     - bungcip.better-toml
     - zamerick.vscode-caddyfile-syntax
     - EditorConfig.EditorConfig
-    - GitHub.vscode-pull-request-github
     - GitHub.github-vscode-theme
     - bierner.github-markdown-preview
     - bierner.markdown-checkbox
@@ -30,14 +29,11 @@ vscode:
     - PKief.markdown-checkbox
     - PKief.material-icon-theme
     - PKief.material-product-icons
-    - Equinusocio.vsc-community-material-theme
     - ms-python.python
     - rebornix.ruby
     - golang.go
-    - silvenon.mdx
     - DavidAnson.vscode-markdownlint
     - william-voyek.vscode-nginx
-    - abumalick.vscode-nvm
     - amazonwebservices.aws-toolkit-vscode
     - googlecloudtools.cloudcode
     - arcticicestudio.nord-visual-studio-code
