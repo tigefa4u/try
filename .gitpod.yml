@@ -4,7 +4,7 @@ tasks:
   - command: |
       nvm install lts/gallium
       npm install -g npm
-      npm install -g @cloudflare/wrangler
+      npm install -g wrangler
       curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | sudo -E bash -s install deb-get
       deb-get update
       deb-get upgrade
@@ -12,7 +12,6 @@ tasks:
 
 vscode:
   extensions:
-    - bungcip.better-toml
     - zamerick.vscode-caddyfile-syntax
     - EditorConfig.EditorConfig
     - GitHub.github-vscode-theme
@@ -39,8 +38,6 @@ vscode:
     - arcticicestudio.nord-visual-studio-code
     - stateful.stable
     - rangav.vscode-thunder-client
-    - ms-vscode-remote.vscode-remote-extensionpack
-    - ms-kubernetes-tools.vscode-kubernetes-tools
     - ms-azuretools.vscode-docker
     - mikestead.dotenv
     - Jannchie.codetime
