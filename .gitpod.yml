@@ -29,7 +29,6 @@ vscode:
     - PKief.material-icon-theme
     - PKief.material-product-icons
     - ms-python.python
-    - rebornix.ruby
     - golang.go
     - DavidAnson.vscode-markdownlint
     - william-voyek.vscode-nginx
