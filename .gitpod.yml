@@ -2,7 +2,9 @@ image: gitpod/workspace-full-vnc:latest
 
 tasks:
   - command: |
-      nvm install lts/gallium
+      nvm ls-remote --lts
+      nvm ls
+      nvm install lts/hydrogen
       npm install -g npm
       npm install -g wrangler
       curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | sudo -E bash -s install deb-get
