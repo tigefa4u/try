@@ -14,7 +14,6 @@ tasks:
 
 vscode:
   extensions:
-    - zamerick.vscode-caddyfile-syntax
     - EditorConfig.EditorConfig
     - GitHub.github-vscode-theme
     - bierner.github-markdown-preview
@@ -32,15 +31,9 @@ vscode:
     - PKief.material-product-icons
     - ms-python.python
     - golang.go
-    - DavidAnson.vscode-markdownlint
-    - william-voyek.vscode-nginx
-    - amazonwebservices.aws-toolkit-vscode
-    - googlecloudtools.cloudcode
     - arcticicestudio.nord-visual-studio-code
-    - stateful.stable
     - rangav.vscode-thunder-client
     - ms-azuretools.vscode-docker
-    - mikestead.dotenv
     - Jannchie.codetime
 
 github:
